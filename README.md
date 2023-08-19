@@ -8,7 +8,7 @@ The ICM solutions for this project are written in Python 3. Users can execute th
 
 The repository features four main code files:
 1. group.py - This code provides fastener coordinates grouped by their locations, including end, edge, interior supports, and side-lap fasteners. An illustration below offers a visual representation of the fastener labels.
-![Capture](https://github.com/hyeyoungkoh/Instantaneous-Center-Method-for-Diaphragms/assets/75875948/0473e5f0-157a-4337-8ba4-8fcdd465b88d)
+![Capture](https://github.com/hyeyoungkoh/Instantaneous-Center-Method-for-Diaphragms/assets/75875948/0473e5f0-157a-4337-8ba4-8fcdd465b88d|width=80)
 2. force_function.py - This code computes the forces exerted by fasteners and their respective moments about the instantaneous center. It considers different load-deformation relationships for arc-spot welds (used for end, edge, and interior supports) and screws (utilized for side-lap fasteners). The load-deformation relationships embedded in this code are derived from the test results (Snow and Easterling 2008 and Moen et al. 2014)
 3. IC.py - This code embodies an iteration process designed to estimate the final instantaneous center.
 
