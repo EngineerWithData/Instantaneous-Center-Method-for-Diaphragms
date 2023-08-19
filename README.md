@@ -7,13 +7,11 @@ The AISC Steel Construction Manual, AISC 360, has incorporated inelastic analysi
 The ICM solutions for this project are written in Python 3. Users can execute the "test.ipynb" file on Google Colab, a web-based user interface that eliminates the need for local software downloads, to test some example diaphragms. The developed ICM codes have been tested against diaphragm test results provided in the SDII project (https://steeli.org/?p=71) and DDM 01 (Steel Deck Institute Diaphragm Design Manual, First Edition). Detailed procedures for the ICM are available in Brandt (1982a) and Brandt (1982b).
 
 The repository features four main code files:
-1. group.py - This code provides fastener coordinates grouped by their locations, including end, edge, interior supports, and side-lap fasteners. An illustration below offers a visual representation of the fastener labels.
+1. group.py - This code provides fastener coordinates grouped by their locations, including end, edge, interior supports, and side-lap fasteners. An illustration below offers a visual representation of the fastener labels. This project ignore the resistance of the corner fasteners associated with the overhanging welds where pink X marks are present in the illustration. 
 ![Capture](https://github.com/hyeyoungkoh/Instantaneous-Center-Method-for-Diaphragms/assets/75875948/0473e5f0-157a-4337-8ba4-8fcdd465b88d|width=50)
 2. force_function.py - This code computes the forces exerted by fasteners and their respective moments about the instantaneous center. It considers different load-deformation relationships for arc-spot welds (used for end, edge, and interior supports) and screws (utilized for side-lap fasteners). The load-deformation relationships embedded in this code are derived from the test results (Snow and Easterling 2008 and Moen et al. 2014)
 3. IC.py - This code embodies an iteration process designed to estimate the final instantaneous center.
-
-
-
+4. test.ipynb - Users can excute this file to calculate the shear strength of diaphragms. Detailed annotations are provided in the code line by line.
 
 ## References
 - AISI S310, North American Specification for the Design of Profiled Steel Diaphragm Panels, AISI, 2016.
