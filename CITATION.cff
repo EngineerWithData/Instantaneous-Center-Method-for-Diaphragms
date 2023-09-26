@@ -1,0 +1,22 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Instantaneous-center-method-for-steel-diaphragm
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Hyeyoung
+    family-names: Koh
+    email: hyeyoung.koh@wisc.edu
+    affiliation: Univeristy of Wisconsin-Madison
+    orcid: 'https://orcid.org/0000-0002-5795-4417'
+repository-code: >-
+  https://github.com/hyeyoungkoh/Instantaneous-Center-Method-for-Diaphragms
+keywords:
+  - Steel diaphragm
+  - Steel deck
+  - Inelastic analysis
+  - Instantaneous center method
