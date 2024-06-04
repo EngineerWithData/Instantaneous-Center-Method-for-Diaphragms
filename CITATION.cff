@@ -10,8 +10,8 @@ type: software
 authors:
   - given-names: Hyeyoung
     family-names: Koh
-    email: hyeyoung.koh@wisc.edu
-    affiliation: Univeristy of Wisconsin-Madison
+    email: hyeyoung.koh@wsu.edu
+    affiliation: Washington State Univeristy
     orcid: 'https://orcid.org/0000-0002-5795-4417'
 repository-code: >-
   https://github.com/hyeyoungkoh/Instantaneous-Center-Method-for-Diaphragms
