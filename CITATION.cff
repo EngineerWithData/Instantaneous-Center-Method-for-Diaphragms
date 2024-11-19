@@ -13,6 +13,15 @@ authors:
     email: hyeyoung.koh@wsu.edu
     affiliation: Washington State Univeristy
     orcid: 'https://orcid.org/0000-0002-5795-4417'
+  - given-names: Tom
+    family-names: Sputo
+    email: tsputo50@gmail.com
+    affiliation: Steel Deck Institute
+  - given-names: Hannah B.
+    family-names: Blum
+    email: hannah.blum@wisc.edu
+    affiliation: University of Wisconsin-Madison
+
 repository-code: >-
   https://github.com/hyeyoungkoh/Instantaneous-Center-Method-for-Diaphragms
 keywords:
